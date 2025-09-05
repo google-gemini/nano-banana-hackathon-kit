@@ -117,7 +117,7 @@ Compete for your share of over **$400,000 in prizes**!
 *   **Winner**: 22M ElevenLabs Credits (6 months of Scale, Approx value: $4,000)
 
 ### ⏳ Key Dates
-*   **Competition Starts**: September 6, 2025 (12:01am UTC, 5:00 PM PT)
+*   **Competition Starts**: September 6, 2025 (12:01am UTC, September 5, 2025 5:00 PM PT)
 *   **Final Submission Deadline**: September 7, 2025 (4:59 PM UTC, 11:59 PM PT)
 *   **Judging Period**: September 8 - 17, 2025
 *   **Winners Announced**: September 19, 2025 (Estimated)
@@ -126,7 +126,7 @@ Compete for your share of over **$400,000 in prizes**!
 
 ## Notes About API Usage
 
-Please note the special tier for the Gemini API (for all API users) - will allow **100 requests per project per day.** 
+Please note that a special tier for the Gemini API (for all API users) - will allow **100 requests per project per day.** 
 
 Developers using a paid API key will pay for all of their usage. To get the free 100 generations, please use a free tier API key.
 
