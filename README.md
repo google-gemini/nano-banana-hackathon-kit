@@ -30,7 +30,8 @@ Welcome, hackers! This repository is the official starter kit and resource hub f
 
 ## 🛠️ Technical Resources
 
-*   **[START HERE: Getting Your API Key](./examples/01-getting-your-api-key.ipynb)**: Step-by-step instructions to get your free Gemini API key and generate a first image with nano banana using Python.
+*   **[START HERE: Getting Your API Key](./guides/01-getting-your-api-key.ipynb)**: Step-by-step instructions to get your free Gemini API key and generate a first image with nano banana using Python.
+    *  **[Use Nano banana](./guides/02-use-nano-banana.ipynb): Learn of the different ways to use nano banana, to generate and edit images.   
 *   **[`starter-kits/`](./starter-kits/)**: Ready-to-use project templates to get you building immediately.
 *   **[`examples/`](./examples/)**: Self-contained code snippets demonstrating specific features of the Gemini API.
     *  [JavaScript Getting Started](./examples/javascript-getting-started.md)
