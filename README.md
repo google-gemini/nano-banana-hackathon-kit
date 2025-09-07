@@ -47,28 +47,4 @@ To get a local copy up and running, follow these simple steps.
 * Python 3.9+
 * A Gemini API key.
 
-### Installation & Setup
 
-1.  **Clone the repository**
-    ```sh
-    git clone [https://github.com/your-username/trailercraft-ai.git](https://github.com/your-username/trailercraft-ai.git)
-    cd trailercraft-ai
-    ```
-
-2.  **Install dependencies**
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3.  **Set up environment variables**
-    * Create a new file named `.env` in the root directory.
-    * Add your API key to this file:
-    ```
-    GEMINI_API_KEY='YOUR_API_KEY_HERE'
-    ```
-
-4.  **Run the application**
-    ```sh
-    # This is an example for a Streamlit app. Adjust if you are using a different framework.
-    streamlit run app.py
-    ```
