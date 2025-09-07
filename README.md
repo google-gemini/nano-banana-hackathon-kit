@@ -4,8 +4,8 @@
 
 ---
 
-### 🎥 [Watch the Video Demo](https://your-youtube-link-here)
-### 🚀 [Try the Live Application](https://your-live-app-url-here)
+### 🎥 [Watch the Video Demo](https://youtu.be/O22ZuJNVzaI)
+### 🚀 [Try the Live Application](https://trailercraft-ai-v0-02-248575070763.us-west1.run.app/)
 
 ---
 
