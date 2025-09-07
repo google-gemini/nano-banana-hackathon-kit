@@ -1,0 +1,7 @@
+{
+  "name": "Copy of TrailerCraft AI v0.02",
+  "description": "An agentic movie trailer generator by Tuesday Cinema Club. Describe a sequel to any movie, create a custom character, and generate a unique trailer concept with AI. By Tuesday Cinema Club",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

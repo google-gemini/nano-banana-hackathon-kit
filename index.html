@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrailerCraft AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+      body, html, #root {
+        height: 100%;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(-45deg, #000000, #2d1d0c, #4a2511, #0f172a);
+        background-size: 400% 400%;
+        animation: gradient-animation 20s ease infinite;
+      }
+      @keyframes gradient-animation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      .font-retro {
+        font-family: 'Press Start 2P', cursive;
+      }
+      .neon-glow {
+        text-shadow:
+          0 0 5px rgba(245, 158, 11, 0.8), /* amber-500 */
+          0 0 10px rgba(245, 158, 11, 0.6),
+          0 0 15px rgba(251, 191, 36, 0.4), /* amber-400 */
+          0 0 20px rgba(251, 191, 36, 0.2);
+      }
+      .neon-glow-orange {
+         text-shadow: 0 0 7px #f97316, 0 0 10px #f97316, 0 0 21px #f97316; /* orange-500 */
+      }
+      .container-glow {
+        box-shadow: 0 0 15px rgba(245, 158, 11, 0.2), 0 0 25px rgba(251, 191, 36, 0.2);
+      }
+      .btn-neon {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 0.75rem; /* 12px */
+        letter-spacing: 0.05em;
+        transition: all 0.2s ease;
+        box-shadow: 0 0 5px rgba(245, 158, 11, 0.3), 0 0 10px rgba(251, 191, 36, 0.3);
+      }
+      .btn-neon:hover {
+        box-shadow: 0 0 10px rgba(245, 158, 11, 0.6), 0 0 20px rgba(251, 191, 36, 0.6);
+      }
+       .btn-neon:active {
+        transform: scale(0.98);
+      }
+      .input-glow:focus-within {
+        box-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+      }
+
+      /* For custom scrollbar aesthetics */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #020617; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a2511;
+        border-radius: 5px;
+        border: 2px solid #020617;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #f97316;
+      }
+      .vhs-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0) 0,
+          rgba(255, 255, 255, 0.03) 1px,
+          rgba(0, 0, 0, 0.03) 2px
+        );
+        animation: vhs-scanlines 0.2s linear infinite;
+        z-index: 100;
+        opacity: 0.15;
+      }
+
+      @keyframes vhs-scanlines {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(10px); }
+      }
+      
+      @keyframes fade-in {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .animate-fade-in {
+        animation: fade-in 0.5s ease-out forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-900 text-white">
+    <div class="vhs-overlay"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
