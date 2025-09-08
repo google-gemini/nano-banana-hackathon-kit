@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./assets/header.png" alt="Nano Banana Hackathon Banner" width="600"/>
+  <img src="./assets/readme-header.png" alt="Nano Banana Hackathon Banner" width="600"/>
 </p>
 
 Welcome, hackers! This repository is the official starter kit and resource hub for the [**Nano Banana 48 Hour Challenge**](https://www.kaggle.com/competitions/banana), hosted by **Google DeepMind**. Everything you need to get started, build something incredible, and submit your project is right here.
