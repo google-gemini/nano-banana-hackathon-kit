@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+.env
+node_modules/
 __pycache__/
 *.py[codz]
 *$py.class
