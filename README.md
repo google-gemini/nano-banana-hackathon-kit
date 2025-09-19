@@ -44,7 +44,7 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-* Python 3.9+
+* Node.js (v18+ recommended)
 * A Gemini API key.
 
 
