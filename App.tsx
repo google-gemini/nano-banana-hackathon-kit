@@ -20,7 +20,7 @@ import { generateVoiceover } from './services/elevenLabsService';
 import { mixAudio } from './services/audioService';
 import { assembleTrailer } from './services/videoService';
 
-const ELEVENLABS_DEFAULT_KEY = 'sk_dfcc6ffc443433198e5dbabfa9fa03a89f57018fbd5b3f0e';
+const ELEVENLABS_DEFAULT_KEY = '';
 const GOOGLE_AI_DEFAULT_KEY = 'DEFAULT_DEMO_KEY'; // This is a placeholder
 
 const formatTime = (ms: number) => {
